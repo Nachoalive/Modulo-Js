@@ -28,6 +28,6 @@ const utilidad = valorNeto - valorCosto;
 
 const margen = (utilidad / valorNeto) * 100;
 
-alert("La utilidad es: " + utilidad);
+alert("La utilidad es: " + Math.round(utilidad));
 
-alert("El porecntaje de utilidad es de: " + margen);
+alert("El porecntaje de utilidad es de: " + Math.round(margen)+ "%");
